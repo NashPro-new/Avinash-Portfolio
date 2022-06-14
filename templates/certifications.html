@@ -1,0 +1,63 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>AVINASH PORTFOLIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Description" lang="en" content="open source html and css template">
+<meta name="author" content="mlp design">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="{% static 'pastel.css' %}">
+</head>
+<body>
+<!-- Menu Items -->
+<nav>
+ <input type="checkbox" id="show-menu" role="button">
+ <label for="show-menu" class="open"><span class="fa fa-bars"></span></label>
+ <label for="show-menu" class="close"><span class="fa fa-times"></label>
+ <ul id="menu">
+  <li><a href="/">Home</a></li>
+  <li><a href="/work">Work Experience</a></li>
+  <li><a href="/education">Education</a></li>
+  <li><a href="/research">Research</a></li>
+  <li><a class="active" href="#">Certifications</a></li>
+ </ul>
+</nav>
+<!-- // -->
+<!-- Banner -->
+<div id="banner">
+ <div id="header">
+  <h1>Avinash Deepak Sugyan</h1>
+  <p class="sub">Mechanical Engineer and a Software Engineer.</p>
+ </div>
+</div>
+<div class="pageitem">
+    <p>                                </p> 
+    <!--<p>Morbi aliquet elit quis viverra lobortis. Mauris ullamcorper neque eget mollis pretium. Cras lacinia dolor a laoreet porta. Aliquam bibendum mattis elit nec tincidunt. Curabitur efficitur sed mauris eget venenatis.</p>-->
+     <div class="three-col-cell gallery">
+      <img src="{% static 'PythonBasic.PNG' %}"><br><span class="sub"><a href = "https://www.coursera.org/account/accomplishments/verify/78TCUU52GYDW" >Python Basic</a></span>
+     </div>
+     <div class="three-col-cell gallery">
+      <img src="{% static 'python2.PNG' %}"><br><span class="sub"><a href = "https://www.coursera.org/account/accomplishments/certificate/BTVDTQ545A5E" >Python Functions, Files, and Dictionaries</a></span>
+     </div>
+     <div class="three-col-cell gallery">
+      <img src="{% static 'python3.PNG' %}"><br><span class="sub"><a href = "https://www.coursera.org/account/accomplishments/certificate/Y98ZREKNDTSF" >Data Collection and Processing with Python</a></span>
+     </div>
+     <div class="three-col-cell gallery">
+      <img src="{% static 'DjangoBeginner.PNG' %}"><br><span class="sub"><a href = "https://www.udemy.com/certificate/UC-73a84d48-911c-4758-ad36-19c7749f4276/" >Django Beginner</a></span>
+     </div>
+   </div>
+   <!-- Footer Items -->
+<div id="footer">
+    <p>&copy; Avinash Sugyan</p>
+    <!--Credits below must be kept under CC-NC 3.0 License-->
+    <p>Contact me:</p>
+    <p>Twitter:<a href="https://twitter.com/SugianAvinash"> @SugianAvinash</a></p>
+    <p>LinkedIn:<a href="https://www.linkedin.com/in/avinashdeepaksugyan/"> avinashdeepaksugyan</a></p>
+   </div>
+   <!-- // -->
+   </body>
+   </html>
